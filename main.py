@@ -8,4 +8,4 @@ if st.button("作成"):
     _url=request.get(f"https://is.gd/create.php?format=simple&url={url}").text
     st.write(f"生成完了!:{_url}"
   except:
-    st.write(f"error:{e}")
+    st.write(f"error")

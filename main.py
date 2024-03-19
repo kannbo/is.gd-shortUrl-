@@ -13,7 +13,7 @@ if st.button("作成"):
     red{
       color:red;
       }
-    </style>"""+"<red>生成失敗!:"+str(e)+"</red>",unsafe_allow_html=True)
+    </style>"""+"<red>生成失敗!:間違ったURL</red>",unsafe_allow_html=True)
   except Exception as e:
     st.write("""<style>
     red{
